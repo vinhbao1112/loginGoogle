@@ -1,6 +1,9 @@
 //./auth/userinfo.email
 //./auth/userinfo.profile
+
 // link google cloud https://console.cloud.google.com/apis/credentials?hl=vi&project=testlogin-423304
+// https://vinhbao1112.github.io/loginGoogle/
+// http://127.0.0.1:5500/loginGoogle/index.html
 
 const CLIENT_ID = "1056991295125-1sqnq6k73cs8mg9cavl8c72hp5db1hca.apps.googleusercontent.com"
 

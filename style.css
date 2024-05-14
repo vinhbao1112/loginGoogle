@@ -27,8 +27,9 @@ span {
     color: white;
 }
 .notification {
+    width: 350px;
     position: fixed;
-    top: -50px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #28a745;
@@ -37,12 +38,9 @@ span {
     border-radius: 5px;
     transition: top 0.5s ease-in-out;
     z-index: 1000;
+    opacity: 0;
 }
 
 .notification.show {
-    top: 20px
-}
-
-.notification.logout {
-    background-color: #dc3545;
+    opacity: 1;
 }
