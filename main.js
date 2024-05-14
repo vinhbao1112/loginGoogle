@@ -1,5 +1,6 @@
 //./auth/userinfo.email
 //./auth/userinfo.profile
+// link google cloud https://console.cloud.google.com/apis/credentials?hl=vi&project=testlogin-423304
 
 const CLIENT_ID = "1056991295125-1sqnq6k73cs8mg9cavl8c72hp5db1hca.apps.googleusercontent.com"
 
@@ -7,6 +8,9 @@ const CLIENT_ID = "1056991295125-1sqnq6k73cs8mg9cavl8c72hp5db1hca.apps.googleuse
 const LINK_GET_TOKEN = `
     https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=https://vinhbao1112.github.io/loginGoogle/&client_id=${CLIENT_ID}
 `
+// const LINK_GET_TOKEN = `
+//     https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=http://127.0.0.1:5500/loginGoogle/index.html&client_id=${CLIENT_ID}
+// `
 
 document.addEventListener("DOMContentLoaded", ()=>{
     const signBtn = document.querySelector("#sign_btn")
