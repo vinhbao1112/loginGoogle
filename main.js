@@ -5,7 +5,7 @@ const CLIENT_ID = "1056991295125-1sqnq6k73cs8mg9cavl8c72hp5db1hca.apps.googleuse
 
 //%20 in URL giữa 2 url
 const LINK_GET_TOKEN = `
-    https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=http://127.0.0.1:5500/loginGoogle/test.html&client_id=${CLIENT_ID}
+    https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=https://vinhbao1112.github.io/loginGoogle/&client_id=${CLIENT_ID}
 `
 
 document.addEventListener("DOMContentLoaded", ()=>{
