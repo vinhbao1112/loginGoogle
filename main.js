@@ -5,14 +5,18 @@
 // https://vinhbao1112.github.io/loginGoogle/
 // http://127.0.0.1:5500/loginGoogle/index.html
 
-const CLIENT_ID = "1056991295125-1sqnq6k73cs8mg9cavl8c72hp5db1hca.apps.googleusercontent.com"
+
 
 //%20 in URL giữa 2 url
+const CLIENT_ID = "1056991295125-1sqnq6k73cs8mg9cavl8c72hp5db1hca.apps.googleusercontent.com"
 const LINK_GET_TOKEN = `
     https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=https://vinhbao1112.github.io/loginGoogle/&client_id=${CLIENT_ID}
 `
+
+//LOCAL
+// const CLIENT_ID_LOCAL = "1056991295125-56vnan7rhvmigpav8v4hihtn7vljq5l6.apps.googleusercontent.com"
 // const LINK_GET_TOKEN = `
-//     https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=http://127.0.0.1:5500/loginGoogle/index.html&client_id=${CLIENT_ID}
+//     https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=http://127.0.0.1:5500/loginGoogle/index.html&client_id=${CLIENT_ID_LOCAL}
 // `
 
 document.addEventListener("DOMContentLoaded", ()=>{
